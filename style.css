@@ -10,6 +10,7 @@
     a {
       color: #66fcf1;
       transition: color 0.3s ease;
+      text-decoration: none;
     }
     a:hover {
       color: #45a29e;
@@ -20,6 +21,7 @@
       border-left: 5px solid #66fcf1;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       color: #fff;
+      text-align: center;
     }
     .card:hover {
       transform: translateY(-5px);
