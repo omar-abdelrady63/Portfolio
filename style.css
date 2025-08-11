@@ -94,10 +94,18 @@
 
    .navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: transparent !important; /* شفاف في الأول */
+    background-color: transparent !important; 
   }
 
   .navbar.scrolled {
-    background-color: #1e1e1e !important; /* لون ثابت عند النزول */
+    background-color: #1e1e1e !important; 
     box-shadow: 0 2px 10px rgba(0,0,0,0.4);
   }
+
+  @media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #1e1e1e !important;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+}

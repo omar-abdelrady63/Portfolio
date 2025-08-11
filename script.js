@@ -1,4 +1,4 @@
- const navbar = document.querySelector(".navbar");
+  const navbar = document.querySelector(".navbar");
   const backToTopBtn = document.getElementById("backToTop");
 
   window.addEventListener("scroll", function () {
